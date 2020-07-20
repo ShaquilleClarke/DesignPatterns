@@ -26,7 +26,7 @@ class Horoscope {
 }
 
 const say = function() {
-    console.log(`Whats gud! It's ya boy ${this.name} and i'm a ${this.type} mufucka`);
+    console.log(`Whats gud! It's ya boy ${this.name} and i am not ${this.type}!`);
 }
 
 const horoscope = new Horoscope();
