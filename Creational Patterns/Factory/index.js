@@ -1,3 +1,5 @@
+// with this approach we can create multiple instances of different gadgets/classes
+
 const GadgetFactory = require("./gadgetFactory");
 
 const myLaptop = GadgetFactory.createGadget("Laptop", {
