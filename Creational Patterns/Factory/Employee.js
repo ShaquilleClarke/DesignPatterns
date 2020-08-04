@@ -17,7 +17,7 @@ class Tester {
 // Employees are created and assigned a role 
 // Role is determined based on the case
 class EmployeeFactory {
-    create = (name, type) => {
+    create(name, type) {
         switch (type) {
             case 1:
                 return new Developer(name);
